@@ -14,17 +14,17 @@
         <h1>cssMemeSlider</h1>
       </header>
       <main>
-        <section class="slider__wrapper">
+        <section class="slider-wrapper">
           <input type="radio" name="slider" id="slide1" />
           <input type="radio" name="slider" id="slide2" checked />
           <input type="radio" name="slider" id="slide3" />
           <input type="radio" name="slider" id="slide4" />
 
-          <ul class="slides__img">
-            <li><img src="./memes/meme-01.jpg" alt="" /></li>
-            <li><img src="./memes/meme-02.jpg" alt="" /></li>
-            <li><img src="./memes/meme-03.jpg" alt="" /></li>
-            <li><img src="./memes/meme-04.jpg" alt="" /></li>
+          <ul class="slides-list slides-img">
+            <li><img class="slide-img" src="./memes/meme-01.jpg" alt="" /></li>
+            <li><img class="slide-img" src="./memes/meme-02.jpg" alt="" /></li>
+            <li><img class="slide-img" src="./memes/meme-03.jpg" alt="" /></li>
+            <li><img class="slide-img" src="./memes/meme-04.jpg" alt="" /></li>
           </ul>
 
           <div class="nav">
@@ -33,13 +33,14 @@
             <label for="slide3" class="nav-btn"><div class="label-dot"></div></label>
             <label for="slide4" class="nav-btn"><div class="label-dot"></div></label>
           </div>
-
-          <ul class="slides__text">
-            <li>Так чей код?</li>
-            <li>Как написать камень-ножницы-бумагу в три строчки кода</li>
-            <li>Как то так...</li>
-            <li>Wake up, Neo... The Matrix has you... Follow the white rabbit. Knock, knock, Neo.</li>
-          </ul>
+          <div class="slides-text-wrapper">
+            <ul class="slides-list slides-text">
+              <li>Так чей код?</li>
+              <li>Как написать камень-ножницы-бумагу в три строчки кода</li>
+              <li>Как то так...</li>
+              <li>Wake up, Neo... The Matrix has you... Follow the white rabbit. Knock, knock, Neo.</li>
+            </ul>
+          </div>
         </section>
       </main>
       <footer><a href="http://github.com/ThorsAngerVaNeT">Vadzim Antonau © 2022</a></footer>
