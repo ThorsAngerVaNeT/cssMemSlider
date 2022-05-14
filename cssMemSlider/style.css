@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +11,9 @@
 body {
   min-width: 20rem;
   margin: 0 auto;
-  background: rgb(68, 133, 255);
+  background: radial-gradient(circle, rgba(248, 252, 255, 1) 0%, rgba(140, 162, 175, 1) 100%);
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
 }
 
 .container {
@@ -20,6 +24,11 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  color: #ce4532;
 }
 
 main {
@@ -34,7 +43,6 @@ main {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  background: rgb(21, 53, 238);
   border-radius: 0.625rem;
   overflow: hidden;
 }
@@ -61,8 +69,8 @@ main {
   height: 1rem;
   margin: 0.5rem;
   display: inline-block;
-  background-color: #97d0f7;
-  border: 0.125rem solid #97d0f7;
+  background-color: #ce4532;
+  border: 0.125rem solid #ce4532;
   border-radius: 100%;
 }
 
@@ -141,6 +149,8 @@ main {
   flex-shrink: 0;
   white-space: normal;
   vertical-align: top;
+  color: #4e5b63;
+  font-size: 1.5rem;
 }
 
 .slider-bottom {
@@ -169,7 +179,7 @@ main {
 
 .link {
   text-decoration: none;
-  color: antiquewhite;
+  color: rgb(129, 100, 59);
 }
 
 @media (max-width: 411.98px) {
