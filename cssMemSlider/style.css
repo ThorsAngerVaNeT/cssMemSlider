@@ -157,6 +157,7 @@ main {
 .slider-bottom {
   width: 100%;
   display: flex;
+
 }
 
 #slide1:checked ~ .slides-list,
@@ -186,7 +187,6 @@ main {
 
 @media (max-width: 411.98px) {
   .nav {
-    width: 100%;
     order: 0;
     text-align: center;
   }
@@ -196,7 +196,6 @@ main {
   }
 
   .slides-text-wrapper {
-    width: 100%;
     text-align: start;
   }
 }
