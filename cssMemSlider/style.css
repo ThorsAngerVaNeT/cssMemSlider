@@ -72,10 +72,15 @@ main {
   border-color: white;
 }
 
-#slide1:checked ~ .nav .nav-btn[for='slide1'] > .label-dot,
-#slide2:checked ~ .nav .nav-btn[for='slide2'] > .label-dot,
-#slide3:checked ~ .nav .nav-btn[for='slide3'] > .label-dot,
-#slide4:checked ~ .nav .nav-btn[for='slide4'] > .label-dot {
+.nav-btn:active .label-dot {
+  background-color: #c5bfbf;
+  border-color: #c5bfbf;
+}
+
+#slide1:checked ~ .slider-bottom .nav .nav-btn[for='slide1'] > .label-dot,
+#slide2:checked ~ .slider-bottom .nav .nav-btn[for='slide2'] > .label-dot,
+#slide3:checked ~ .slider-bottom .nav .nav-btn[for='slide3'] > .label-dot,
+#slide4:checked ~ .slider-bottom .nav .nav-btn[for='slide4'] > .label-dot {
   background-color: transparent;
 }
 
