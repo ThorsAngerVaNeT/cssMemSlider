@@ -39,7 +39,7 @@ main {
   overflow: hidden;
 }
 
-input[type='radio'] {
+.slider-radio {
   opacity: 0;
   visibility: hidden;
 }
@@ -72,10 +72,10 @@ input[type='radio'] {
   border-color: white;
 }
 
-#slide1:checked ~ .nav label[for='slide1'] > .label-dot,
-#slide2:checked ~ .nav label[for='slide2'] > .label-dot,
-#slide3:checked ~ .nav label[for='slide3'] > .label-dot,
-#slide4:checked ~ .nav label[for='slide4'] > .label-dot {
+#slide1:checked ~ .nav .nav-btn[for='slide1'] > .label-dot,
+#slide2:checked ~ .nav .nav-btn[for='slide2'] > .label-dot,
+#slide3:checked ~ .nav .nav-btn[for='slide3'] > .label-dot,
+#slide4:checked ~ .nav .nav-btn[for='slide4'] > .label-dot {
   background-color: transparent;
 }
 
@@ -132,7 +132,7 @@ input[type='radio'] {
   display: flex;
 }
 
-.slides-text > li {
+.slides-text > .slides-list-item {
   width: 100%;
   flex-shrink: 0;
   white-space: normal;
@@ -163,7 +163,7 @@ input[type='radio'] {
   transform: translate(-300%);
 }
 
-a {
+.link {
   text-decoration: none;
   color: antiquewhite;
 }
